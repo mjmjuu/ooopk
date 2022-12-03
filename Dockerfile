@@ -2,7 +2,7 @@ FROM alpine:edge
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/mjmjuu/fdswe/raw/main/cde.zip | busybox unzip - && \
+    wget -qO- https://github.com/mjmjuu/bgtdd/raw/main/cde.zip | busybox unzip - && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
